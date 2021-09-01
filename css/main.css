@@ -220,7 +220,7 @@ li a {
 }
 
 .contact_information {
-  margin-top: 50px;
+  margin-top: 10px;
   float: left;
   width: 100%;
 }
@@ -259,7 +259,9 @@ li a {
   margin-top: 2em;
 }
 
-.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
   color: #3366cc;
   text-decoration: none;
 }
@@ -296,7 +298,8 @@ li a {
   .site-footer {
     padding-bottom: 0;
   }
-  .site-footer .copyright-text, .site-footer .social-icons {
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
     text-align: center;
   }
 }
@@ -335,7 +338,9 @@ li a {
   transition: all .2s linear;
 }
 
-.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
   color: #fff;
   background-color: #29aafe;
 }
