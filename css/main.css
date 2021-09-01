@@ -151,23 +151,27 @@ li a {
   margin-left: 3em;
   margin-right: 3em;
   background: #f1f1f5;
-  padding: 2em 1.5em;
+  padding: 1em 1.5em;
+  padding-bottom: 3em;
 }
 
-.shop .row {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.shop h2 {
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .shop .row .col {
-  margin-right: 3em;
-  border: 3px solid gray;
+  margin-right: 2em;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
 
-.shop .row .col img {
-  width: 400px;
+.shop .row .col img.center {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
 
 .shop .row .col a {
@@ -179,6 +183,86 @@ li a {
   font-weight: bold;
   padding: 10px;
   display: inline-block;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+  .shop {
+    margin: 0 auto;
+  }
+  .shop .row .col {
+    margin-bottom: 1em;
+  }
+  .shop .row .col .name {
+    font-size: 20px;
+  }
+  .shop .row .col .price {
+    font-size: 20px;
+  }
+  .shop .row .col img.center {
+    width: 300px;
+  }
 }
 
 .site-footer {
