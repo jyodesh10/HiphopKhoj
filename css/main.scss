@@ -42,7 +42,7 @@
 
 .navbar-style {
   /* style of navbar class of nav element*/
-  box-shadow: 0 2px 10px lightgrey;
+  box-shadow: 0 2px 20px lightgrey;
   text-transform: uppercase;
   /*background-color: rgb(13, 6, 63);*/
 }
@@ -80,6 +80,105 @@ li a {
   /* anchor element within list element*/
   color: black;
   font-size: 16px;
+}
+
+//---------------home page
+.home-top {
+  img {
+    margin: 0 auto;
+    text-align: center;
+    object-fit: cover;
+    display: block;
+    width: 60%;
+  }
+
+  margin-bottom: 3em;
+
+}
+
+.watch {
+  background-color: #f0f0f0;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+
+
+
+  img.dance {
+
+    width: 100%;
+  }
+
+  h1 {
+    font-family: 'poppins';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(235, 21, 21);
+    font-weight: bold;
+
+    span {
+      color: black;
+      font-weight: bold
+    }
+  }
+}
+
+.listen {
+  background-color: #ffffff;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+
+  img.dance {
+
+    width: 100%;
+  }
+
+  h1 {
+    font-family: 'poppins';
+    font-size: 50px;
+
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(235, 21, 21);
+    font-weight: bold;
+
+    span {
+      color: black;
+      font-weight: bold
+    }
+  }
+}
+
+.learn {
+  background-color: #f0f0f0;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+
+  img.dance {
+
+    width: 100%;
+  }
+
+  h1 {
+    font-family: 'poppins';
+    font-size: 50px;
+    text-align: center;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(235, 21, 21);
+    font-weight: bold;
+
+    span {
+      color: black;
+      font-weight: bold
+    }
+  }
 }
 
 // --------------watch hiphop

@@ -42,8 +42,8 @@
 
 .navbar-style {
   /* style of navbar class of nav element*/
-  -webkit-box-shadow: 0 2px 10px lightgrey;
-          box-shadow: 0 2px 10px lightgrey;
+  -webkit-box-shadow: 0 2px 20px lightgrey;
+          box-shadow: 0 2px 20px lightgrey;
   text-transform: uppercase;
   /*background-color: rgb(13, 6, 63);*/
 }
@@ -76,6 +76,98 @@ li a {
   /* anchor element within list element*/
   color: black;
   font-size: 16px;
+}
+
+.home-top {
+  margin-bottom: 3em;
+}
+
+.home-top img {
+  margin: 0 auto;
+  text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 60%;
+}
+
+.watch {
+  background-color: #f0f0f0;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.watch img.dance {
+  width: 100%;
+}
+
+.watch h1 {
+  font-family: 'poppins';
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+}
+
+.watch h1 span {
+  color: black;
+  font-weight: bold;
+}
+
+.listen {
+  background-color: #ffffff;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.listen img.dance {
+  width: 100%;
+}
+
+.listen h1 {
+  font-family: 'poppins';
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+}
+
+.listen h1 span {
+  color: black;
+  font-weight: bold;
+}
+
+.learn {
+  background-color: #f0f0f0;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.learn img.dance {
+  width: 100%;
+}
+
+.learn h1 {
+  font-family: 'poppins';
+  font-size: 50px;
+  text-align: center;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+}
+
+.learn h1 span {
+  color: black;
+  font-weight: bold;
 }
 
 .section-layout-padding h1 {
