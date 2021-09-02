@@ -441,15 +441,23 @@ figure.effect-ming:hover img {
   display: block;
 }
 
-.shop .row .col a {
-  background: #eb1515;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 10px;
+.shop .row .col .button {
   display: inline-block;
+  background-color: #5e3131;
+  font-size: 17px;
+  font-family: "poppins";
+  color: white;
+  padding: 1.125rem 2rem;
+  font-weight: bold;
+  border-radius: .5rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.shop .row .col .button:hover {
+  -webkit-transform: translateY(-0.25rem);
+          transform: translateY(-0.25rem);
 }
 
 .overlay {

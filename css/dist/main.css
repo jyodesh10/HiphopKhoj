@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-
 }
 
-
-// ----------splash screen---------------
 .loader_bg {
   position: fixed;
   z-index: 9999999;
@@ -34,7 +28,6 @@
   width: 280px;
 }
 
-
 .header {
   /* header of the website*/
   height: 100vh;
@@ -47,15 +40,10 @@
   /*background-color: rgb(13, 6, 63);*/
 }
 
-ul.navbar-nav {
-  li {
-    a.active-page {
-      color: rgb(33, 33, 150);
-      background-color: rgb(229, 229, 233);
-    }
-  }
+ul.navbar-nav li a.active-page {
+  color: #212196;
+  background-color: #e5e5e9;
 }
-
 
 .container {
   margin-top: 3px;
@@ -82,18 +70,15 @@ li a {
   font-size: 16px;
 }
 
-//---------------home page
 .home-top {
-  img {
-    margin: 0 auto;
-    text-align: center;
-    object-fit: cover;
-    display: block;
-    width: 60%;
-  }
-
   margin-bottom: 3em;
-
+}
+.home-top img {
+  margin: 0 auto;
+  text-align: center;
+  object-fit: cover;
+  display: block;
+  width: 60%;
 }
 
 .watch {
@@ -101,28 +86,22 @@ li a {
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
-
-
-
-  img.dance {
-
-    width: 100%;
-  }
-
-  h1 {
-    font-family: 'poppins';
-    font-size: 50px;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: rgb(235, 21, 21);
-    font-weight: bold;
-
-    span {
-      color: black;
-      font-weight: bold
-    }
-  }
+}
+.watch img.dance {
+  width: 100%;
+}
+.watch h1 {
+  font-family: "poppins";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+}
+.watch h1 span {
+  color: black;
+  font-weight: bold;
 }
 
 .listen {
@@ -130,27 +109,22 @@ li a {
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
-
-  img.dance {
-
-    width: 100%;
-  }
-
-  h1 {
-    font-family: 'poppins';
-    font-size: 50px;
-
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: rgb(235, 21, 21);
-    font-weight: bold;
-
-    span {
-      color: black;
-      font-weight: bold
-    }
-  }
+}
+.listen img.dance {
+  width: 100%;
+}
+.listen h1 {
+  font-family: "poppins";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+}
+.listen h1 span {
+  color: black;
+  font-weight: bold;
 }
 
 .learn {
@@ -158,139 +132,99 @@ li a {
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
-
-  img.dance {
-
-    width: 100%;
-  }
-
-  h1 {
-    font-family: 'poppins';
-    font-size: 50px;
-    text-align: center;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: rgb(235, 21, 21);
-    font-weight: bold;
-
-    span {
-      color: black;
-      font-weight: bold
-    }
-  }
+}
+.learn img.dance {
+  width: 100%;
+}
+.learn h1 {
+  font-family: "poppins";
+  font-size: 50px;
+  text-align: center;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+}
+.learn h1 span {
+  color: black;
+  font-weight: bold;
 }
 
-// --------------watch hiphop
-.section-layout-padding {
-
-  h1 {
-    font-family: 'poppins';
-
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: rgb(235, 21, 21);
-    font-weight: bold;
-
-    span {
-      color: black;
-      font-weight: bold
-    }
-  }
-
-  .container {
-    background: #f0f0f0;
-    border-radius: 1em;
-    margin-bottom: 1em;
-    padding: 2em 1.5em;
-    //color: white;
-
-    .row {
-      margin-bottom: 1em;
-    }
-
-    .vid {
-      height: 314px;
-      width: 560px;
-      object-fit: cover;
-      border-radius: 1em;
-    }
-  }
-
-
-
+.section-layout-padding h1 {
+  font-family: "poppins";
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
 }
-
+.section-layout-padding h1 span {
+  color: black;
+  font-weight: bold;
+}
+.section-layout-padding .container {
+  background: #f0f0f0;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  padding: 2em 1.5em;
+}
+.section-layout-padding .container .row {
+  margin-bottom: 1em;
+}
+.section-layout-padding .container .vid {
+  height: 314px;
+  width: 560px;
+  object-fit: cover;
+  border-radius: 1em;
+}
 
 @media only screen and (max-width: 1186px) {
-  .section-layout-padding {
-
-    h1 {
-      text-align: center;
-      font-family: 'poppins';
-
-      margin-top: 1em;
-      margin-bottom: 1em;
-      color: rgb(235, 21, 21);
-      font-weight: bold;
-
-      span {
-        color: black;
-        font-weight: bold
-      }
-    }
-
-    .container {
-      background: #f1f1f5;
-      border-radius: 0em;
-      padding: 2em 1.5em;
-      //color: white;
-
-      .row {
-        margin-bottom: 1.5em;
-      }
-
-      .vid {
-        width: 300px;
-        height: 170px;
-        border-radius: 1em;
-        margin: auto;
-        display: block;
-
-      }
-    }
-
-
+  .section-layout-padding h1 {
+    text-align: center;
+    font-family: "poppins";
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #eb1515;
+    font-weight: bold;
   }
-
+  .section-layout-padding h1 span {
+    color: black;
+    font-weight: bold;
+  }
+  .section-layout-padding .container {
+    background: #f1f1f5;
+    border-radius: 0em;
+    padding: 2em 1.5em;
+  }
+  .section-layout-padding .container .row {
+    margin-bottom: 1.5em;
+  }
+  .section-layout-padding .container .vid {
+    width: 300px;
+    height: 170px;
+    border-radius: 1em;
+    margin: auto;
+    display: block;
+  }
 }
-
-//------------------listen hiphop
 .listen-hiphop {
   margin-left: 3em;
   margin-right: 3em;
   background: #f0f0f0;
   padding: 1em 1.5em;
   padding-bottom: 3em;
-
-
-  h2 {
-    font-family: "poppins";
-    font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
-
+}
+.listen-hiphop h2 {
+  font-family: "poppins";
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 hr.new1 {
-  border-top: 1px solid rgb(207, 205, 205);
+  border-top: 1px solid #cfcdcd;
 }
-
-
-
 
 p,
 .tm-text-gray {
@@ -335,7 +269,7 @@ p,
 }
 
 .tm-video-item figcaption,
-.tm-video-item figcaption>a {
+.tm-video-item figcaption > a {
   position: absolute;
   top: 0;
   left: 0;
@@ -343,7 +277,7 @@ p,
   height: 100%;
 }
 
-.tm-video-item figcaption>a {
+.tm-video-item figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -367,22 +301,19 @@ p,
 }
 
 .tm-gallery div.d-block {
-  animation: show .5s ease;
+  animation: show 0.5s ease;
 }
 
-.tm-gallery {
-  h2 {
-    font-family: "poppins";
-    font-weight: bold;
-    margin-top: 4em;
-    margin-bottom: 1em;
-  }
+.tm-gallery h2 {
+  font-family: "poppins";
+  font-weight: bold;
+  margin-top: 4em;
+  margin-bottom: 1em;
 }
 
 /*---------------*/
 /***** Ming *****/
 /*---------------*/
-
 figure.effect-ming {
   background: #030c17;
 }
@@ -401,7 +332,7 @@ figure.effect-ming figcaption::before {
   left: 30px;
   border: 2px solid #fff;
   box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
-  content: '';
+  content: "";
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -433,24 +364,17 @@ figure.effect-ming:hover img {
   opacity: 0.4;
 }
 
-
-// ------------------shop hiphop
-
-.shop-title {
-  h1 {
-    text-align: center;
-    font-family: 'poppins';
-
-    margin-bottom: 1em;
-    color: rgb(235, 21, 21);
-    font-weight: bold;
-    margin-top: 1em;
-
-    span {
-      color: black;
-      font-weight: bold
-    }
-  }
+.shop-title h1 {
+  text-align: center;
+  font-family: "poppins";
+  margin-bottom: 1em;
+  color: #eb1515;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.shop-title h1 span {
+  color: black;
+  font-weight: bold;
 }
 
 .shop {
@@ -459,71 +383,40 @@ figure.effect-ming:hover img {
   background: #f0f0f0;
   padding: 1em 1.5em;
   padding-bottom: 3em;
-
-  h2 {
-    font-weight: bold;
-    font-family: 'poppins';
-
-    margin-bottom: 1em;
-  }
-
-  .row {
-    // margin: 0 auto;
-    // display: flex;
-
-    .col {
-      margin-right: 2em;
-      margin: 0 auto;
-      text-align: center;
-
-      display: block;
-      //border: 1px solid rgb(184, 179, 179);
-
-      img.center {
-        height: 350px;
-        width: 350px;
-        margin: 0 auto;
-        text-align: center;
-        object-fit: cover;
-        display: block;
-
-
-      }
-
-      .button {
-        display: inline-block;
-        background-color: rgb(94, 49, 49);
-        font-size: 17px;
-        font-family: "poppins";
-        color: white;
-        padding: 1.125rem 2rem;
-        font-weight: bold;
-        border-radius: .5rem;
-        transition: .3s;
-        text-decoration: none;
-      }
-
-      .button:hover {
-        transform: translateY(-.25rem);
-      }
-
-
-      // {
-
-      //   background: rgb(102, 78, 78);
-      //   text-decoration: none;
-      //   text-align: center;
-      //   color: white;
-      //   font-size: 1.5em;
-      //   font-weight: bold;
-      //   padding: 10px;
-
-      //   display: inline-block;
-      // }
-    }
-  }
-
-
+}
+.shop h2 {
+  font-weight: bold;
+  font-family: "poppins";
+  margin-bottom: 1em;
+}
+.shop .row .col {
+  margin-right: 2em;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.shop .row .col img.center {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  object-fit: cover;
+  display: block;
+}
+.shop .row .col .button {
+  display: inline-block;
+  background-color: #5e3131;
+  font-size: 17px;
+  font-family: "poppins";
+  color: white;
+  padding: 1.125rem 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.shop .row .col .button:hover {
+  transform: translateY(-0.25rem);
 }
 
 .overlay {
@@ -579,8 +472,6 @@ figure.effect-ming:hover img {
   overflow: auto;
 }
 
-@media screen and (max-width: 1499px) {}
-
 @media screen and (max-width: 700px) {
   .box {
     width: 70%;
@@ -592,77 +483,54 @@ figure.effect-ming:hover img {
 
   .shop {
     margin: 0 auto;
-
-    .row {
-
-      .col {
-        margin-bottom: 1em;
-
-        .name {
-          font-size: 20px;
-        }
-
-        .price {
-          font-size: 20px;
-        }
-
-        img.center {
-          height: 300px;
-          width: 300px;
-          margin: 0 auto;
-          //text-align: center;
-          object-fit: cover;
-          display: block;
-        }
-      }
-
-    }
-
   }
-
+  .shop .row .col {
+    margin-bottom: 1em;
+  }
+  .shop .row .col .name {
+    font-size: 20px;
+  }
+  .shop .row .col .price {
+    font-size: 20px;
+  }
+  .shop .row .col img.center {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+  }
 }
-
-
-
-
-// footer--------------------
-
 .site-footer {
   background-color: #26272b;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
   color: #737373;
-
-
-
-
 }
-
 
 .site-footer hr {
   border-top-color: #bbb;
-  opacity: 0.5
+  opacity: 0.5;
 }
 
 .site-footer hr.small {
-  margin: 20px 0
+  margin: 20px 0;
 }
 
 .site-footer h6 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 1em;
-  letter-spacing: 2px
+  letter-spacing: 2px;
 }
 
 .site-footer a {
   color: #737373;
-
-  .con {
-    font-size: 60px;
-  }
+}
+.site-footer a .con {
+  font-size: 60px;
 }
 
 .site-footer a:hover {
@@ -693,20 +561,15 @@ figure.effect-ming:hover img {
 
 .footer-links {
   padding-left: 0;
-  list-style: none
+  list-style: none;
 }
 
 .footer-links li {
   display: block;
-
-
 }
-
 
 .footer-links a {
   color: #737373;
-
-
 }
 
 .quick {
@@ -721,11 +584,11 @@ figure.effect-ming:hover img {
 }
 
 .footer-links.inline li {
-  display: inline-block
+  display: inline-block;
 }
 
 .site-footer .social-icons {
-  text-align: right
+  text-align: right;
 }
 
 .site-footer .social-icons a {
@@ -735,39 +598,37 @@ figure.effect-ming:hover img {
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
-  background-color: #33353d
+  background-color: #33353d;
 }
 
 .copyright-text {
-  margin: 0
+  margin: 0;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .site-footer [class^=col-] {
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 }
-
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .site-footer {
-    padding-bottom: 0
+    padding-bottom: 0;
   }
 
   .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center
+.site-footer .social-icons {
+    text-align: center;
   }
 }
-
 .social-icons {
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none
+  list-style: none;
 }
 
 .social-icons li {
   display: inline-block;
-  margin-bottom: 4px
+  margin-bottom: 4px;
 }
 
 .social-icons li.title {
@@ -775,7 +636,7 @@ figure.effect-ming:hover img {
   text-transform: uppercase;
   color: #96a2b2;
   font-weight: 700;
-  font-size: 13px
+  font-size: 13px;
 }
 
 .social-icons a {
@@ -789,45 +650,45 @@ figure.effect-ming:hover img {
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #29aafe
+  background-color: #29aafe;
 }
 
 .social-icons.size-sm a {
   line-height: 34px;
   height: 34px;
   width: 34px;
-  font-size: 14px
+  font-size: 14px;
 }
 
 .social-icons a.facebook:hover {
-  background-color: #3b5998
+  background-color: #3b5998;
 }
 
 .social-icons a.twitter:hover {
-  background-color: #00aced
+  background-color: #00aced;
 }
 
 .social-icons a.youtube:hover {
-  background-color: #d80707
+  background-color: #d80707;
 }
 
 .social-icons a.dribbble:hover {
-  background-color: #ea4c89
+  background-color: #ea4c89;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .social-icons li.title {
     display: block;
     margin-right: 0;
-    font-weight: 600
+    font-weight: 600;
   }
 }
