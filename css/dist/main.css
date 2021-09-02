@@ -37,12 +37,13 @@
   /* style of navbar class of nav element*/
   box-shadow: 0 2px 20px lightgrey;
   text-transform: uppercase;
-  /*background-color: rgb(13, 6, 63);*/
+  background-color: #fcfcfc;
+  position: fixed;
 }
 
 ul.navbar-nav li a.active-page {
   color: #212196;
-  background-color: #e5e5e9;
+  background-color: #e7e7eb;
 }
 
 .container {
