@@ -134,7 +134,7 @@ li a {
   }
   .section-layout-padding .container .vid {
     width: 300px;
-    height: 200px;
+    height: 170px;
     border-radius: 1em;
     margin: auto;
     display: block;
@@ -273,7 +273,12 @@ li a {
     font-size: 20px;
   }
   .shop .row .col img.center {
+    height: 300px;
     width: 300px;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
   }
 }
 
@@ -456,8 +461,8 @@ li a {
   background-color: #00aced;
 }
 
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
+.social-icons a.youtube:hover {
+  background-color: #d80707;
 }
 
 .social-icons a.dribbble:hover {

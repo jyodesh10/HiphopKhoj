@@ -154,7 +154,7 @@ li a {
 
       .vid {
         width: 300px;
-        height: 200px;
+        height: 170px;
         border-radius: 1em;
         margin: auto;
         display: block;
@@ -298,6 +298,8 @@ li a {
   overflow: auto;
 }
 
+@media screen and (max-width: 1499px) {}
+
 @media screen and (max-width: 700px) {
   .box {
     width: 70%;
@@ -324,7 +326,12 @@ li a {
         }
 
         img.center {
+          height: 300px;
           width: 300px;
+          margin: 0 auto;
+          //text-align: center;
+          object-fit: cover;
+          display: block;
         }
       }
 
@@ -528,8 +535,8 @@ li a {
   background-color: #00aced
 }
 
-.social-icons a.linkedin:hover {
-  background-color: #007bb6
+.social-icons a.youtube:hover {
+  background-color: #d80707
 }
 
 .social-icons a.dribbble:hover {
