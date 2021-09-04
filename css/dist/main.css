@@ -87,6 +87,7 @@ li a {
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
+  /* hover styles */
 }
 .watch img.dance {
   width: 100%;
@@ -104,15 +105,54 @@ li a {
   color: black;
   font-weight: bold;
 }
+.watch .link-cont {
+  position: relative;
+  font-size: 16px;
+  font-family: "poppins";
+  margin-left: 14em;
+}
+.watch .link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px 0;
+  color: black;
+}
+.watch .link-wrapper {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+}
+.watch .inner-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.watch .hover-1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+.watch .hover-1:hover:after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
 
 .listen {
   background-color: #ffffff;
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
+  /* hover styles */
 }
 .listen img.dance {
-  width: 100%;
+  width: 110%;
 }
 .listen h1 {
   font-family: "poppins";
@@ -127,12 +167,51 @@ li a {
   color: black;
   font-weight: bold;
 }
+.listen .link-cont {
+  position: relative;
+  font-size: 16px;
+  font-family: "poppins";
+  margin-left: 14em;
+}
+.listen .link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px 0;
+  color: black;
+}
+.listen .link-wrapper {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+}
+.listen .inner-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.listen .hover-1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+.listen .hover-1:hover:after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
 
 .learn {
   background-color: #f0f0f0;
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
+  /* hover styles */
 }
 .learn img.dance {
   width: 100%;
@@ -150,6 +229,44 @@ li a {
 .learn h1 span {
   color: black;
   font-weight: bold;
+}
+.learn .link-cont {
+  position: relative;
+  font-size: 16px;
+  font-family: "poppins";
+  margin-left: 14em;
+}
+.learn .link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px 0;
+  color: black;
+}
+.learn .link-wrapper {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+}
+.learn .inner-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.learn .hover-1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+.learn .hover-1:hover:after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
 }
 
 .section-layout-padding h1 {

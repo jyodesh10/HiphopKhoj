@@ -109,7 +109,6 @@ li a {
   margin-right: 4em;
 
 
-
   img.dance {
 
     width: 100%;
@@ -129,6 +128,60 @@ li a {
       font-weight: bold
     }
   }
+
+  .link-cont {
+    position: relative;
+    font-size: 16px;
+    font-family: "poppins";
+    margin-left: 14em;
+  }
+
+  .link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .link-wrapper {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+  }
+
+  .inner-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* hover styles */
+  .hover-1 {
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: red;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      &:after {
+        transform-origin: bottom left;
+        transform: scaleX(1);
+      }
+    }
+  }
+
+
+
+
+
 }
 
 .listen {
@@ -139,7 +192,7 @@ li a {
 
   img.dance {
 
-    width: 100%;
+    width: 110%;
   }
 
   h1 {
@@ -157,6 +210,57 @@ li a {
       font-weight: bold
     }
   }
+
+  .link-cont {
+    position: relative;
+    font-size: 16px;
+    font-family: "poppins";
+    margin-left: 14em;
+  }
+
+  .link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .link-wrapper {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+  }
+
+  .inner-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* hover styles */
+  .hover-1 {
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: red;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      &:after {
+        transform-origin: bottom left;
+        transform: scaleX(1);
+      }
+    }
+  }
+
+
 }
 
 .learn {
@@ -185,7 +289,60 @@ li a {
       font-weight: bold
     }
   }
+
+  .link-cont {
+    position: relative;
+    font-size: 16px;
+    font-family: "poppins";
+    margin-left: 14em;
+  }
+
+  .link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .link-wrapper {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+  }
+
+  .inner-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* hover styles */
+  .hover-1 {
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: red;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      &:after {
+        transform-origin: bottom left;
+        transform: scaleX(1);
+      }
+    }
+  }
+
+
 }
+
+
 
 // --------------watch hiphop
 .section-layout-padding {
