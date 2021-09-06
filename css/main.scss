@@ -94,38 +94,62 @@ li a {
 
   .logo-landing-page {
     width: 300px;
-    background-color: #030c17;
+    background-color: #000000;
   }
 
 
   .menu {
     background-color: #f1f1f5;
     padding: 5em;
-    margin: 5em;
+    margin-top: 5em;
+    margin-right: 20em;
+    margin-left: 20em;
     list-style-type: none;
     border-radius: 2em;
 
-
-    h1 {
+    a {
       text-decoration: none;
-      font-family: 'poppins';
-      font-size: 50px;
-      text-align: center;
-      margin-top: 1em;
-      margin-bottom: 1em;
-      color: rgb(235, 21, 21);
-      font-weight: bold;
 
-      span {
-        color: black;
-        font-weight: bold
+      h1 {
+        font-family: 'poppins';
+        font-size: 50px;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: rgb(235, 21, 21);
+        font-weight: bold;
+
+        span {
+          color: black;
+          font-weight: bold
+        }
       }
+
+
     }
 
+
   }
+
+
 }
 
-@media only screen and (max-width: 767px) {
+.landing-footer {
+  background-color: transparent;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+  line-height: 24px;
+  color: #737373;
+
+
+}
+
+
+@media only screen and (max-width: 1100px) {
   .landing-page {
     display: block;
     justify-content: center;
@@ -143,10 +167,19 @@ li a {
       padding-bottom: 2em;
       border-radius: 2em;
 
-      h1 {
-        font-size: 25px;
+      a {
+        h1 {
+          font-size: 25px;
+        }
+
       }
 
+
+    }
+
+
+    .landing-footer {
+      padding-bottom: 0
     }
 
   }
