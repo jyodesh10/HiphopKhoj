@@ -95,6 +95,7 @@ li a {
   .logo-landing-page {
     width: 300px;
     background-color: #000000;
+    margin-top: 1em;
   }
 
 
@@ -191,7 +192,7 @@ li a {
 //---------------home page
 // .home-top {
 //   img {
-//     margin: 0 auto;
+//     margin : 0 auto;
 //     text-align: center;
 //     object-fit: cover;
 //     display: block;
@@ -567,6 +568,8 @@ li a {
       object-fit: cover;
       border-radius: 1em;
     }
+
+
   }
 
 
@@ -661,6 +664,13 @@ p,
   overflow: hidden;
   text-align: center;
   cursor: pointer;
+
+  iframe,
+  object,
+  embed {
+    margin-top: 2em;
+    max-width: 100%;
+  }
 }
 
 .tm-video-item img {
@@ -730,60 +740,49 @@ p,
   }
 }
 
-/*---------------*/
-/***** Ming *****/
-/*---------------*/
-
-figure.effect-ming {
-  background: #030c17;
+@media (max-width :'700px') {
+  .listen-hiphop {
+    margin: auto;
+  }
 }
 
-figure.effect-ming img {
-  opacity: 0.9;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
+
+
+
+//-------------------learn hiphop
+.learn-hiphop {
+  background-color: #f0f0f0;
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+
+  .learn-item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+
+    iframe,
+    object,
+    embed {
+      margin-top: 2em;
+      max-width: 100%;
+    }
+  }
 }
 
-figure.effect-ming figcaption::before {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
-  content: '';
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale3d(1.4, 1.4, 1);
-  transform: scale3d(1.4, 1.4, 1);
-}
 
-figure.effect-ming h2 {
-  font-size: 1.3em;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
+@media (max-width :'700px') {
+  .learn-hiphop {
+    margin: auto;
 
-figure.effect-ming:hover figcaption::before,
-figure.effect-ming:hover h2 {
-  opacity: 1;
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
+    .learn-item {
+      iframe {
+        height: 200px;
+      }
+    }
+  }
 }
-
-figure.effect-ming:hover figcaption {
-  background-color: rgba(58, 52, 42, 0);
-}
-
-figure.effect-ming:hover img {
-  opacity: 0.4;
-}
-
 
 // ------------------shop hiphop
 
@@ -958,8 +957,8 @@ figure.effect-ming:hover img {
         }
 
         img.center {
-          height: 300px;
-          width: 300px;
+          height: 200px;
+          width: 200px;
           margin: 0 auto;
           //text-align: center;
           object-fit: cover;
