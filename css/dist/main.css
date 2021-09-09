@@ -79,6 +79,10 @@ li a {
   background-color: #000000;
   margin-top: 1em;
 }
+.landing-page .logo-landing-page:hover {
+  width: 301px;
+  cursor: pointer;
+}
 .landing-page .menu {
   background-color: #f1f1f5;
   padding: 5em;
@@ -88,21 +92,27 @@ li a {
   list-style-type: none;
   border-radius: 2em;
 }
-.landing-page .menu a {
-  text-decoration: none;
-}
-.landing-page .menu a h1 {
+.landing-page .menu h1 a {
   font-family: "poppins";
   font-size: 50px;
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  display: inline-block;
+  margin-bottom: 8px;
   color: #eb1515;
   font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
 }
-.landing-page .menu a h1 span {
+.landing-page .menu h1 a span {
   color: black;
   font-weight: bold;
+}
+.landing-page .menu h1 a:hover {
+  color: black;
+  font-size: 51px;
+}
+.landing-page .menu h1 a span:hover {
+  color: #eb1515;
 }
 
 .landing-footer {
@@ -112,6 +122,7 @@ li a {
   position: relative;
   bottom: 0;
   width: 100%;
+  display: inline-block;
   line-height: 24px;
   color: #737373;
 }
@@ -126,6 +137,10 @@ li a {
     margin-bottom: 2em;
     width: 150px;
   }
+  .landing-page .logo-landing-page:hover {
+    width: 153px;
+    cursor: pointer;
+  }
   .landing-page .menu {
     margin: 1em;
     margin-bottom: 4em;
@@ -133,8 +148,12 @@ li a {
     padding-bottom: 2em;
     border-radius: 2em;
   }
-  .landing-page .menu a h1 {
+  .landing-page .menu h1 a {
     font-size: 25px;
+    margin-bottom: -10px;
+  }
+  .landing-page .menu h1 a:hover {
+    font-size: 26px;
   }
   .landing-page .landing-footer {
     padding-bottom: 0;

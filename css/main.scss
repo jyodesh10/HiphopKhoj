@@ -92,12 +92,17 @@ li a {
 .landing-page {
   overflow-x: hidden;
 
+
   .logo-landing-page {
     width: 300px;
     background-color: #000000;
     margin-top: 1em;
   }
 
+  .logo-landing-page:hover {
+    width: 301px;
+    cursor: pointer;
+  }
 
   .menu {
     background-color: #f1f1f5;
@@ -108,26 +113,37 @@ li a {
     list-style-type: none;
     border-radius: 2em;
 
-    a {
+
+
+    h1 a {
+      font-family: 'poppins';
+      font-size: 50px;
+      text-align: center;
+      display: inline-block;
+      // margin-top: 1em;
+      margin-bottom: 8px;
+      color: rgb(235, 21, 21);
+      font-weight: bold;
+      padding: 10px 20px;
       text-decoration: none;
+      //border: 2px solid #ffffff;
 
-      h1 {
-        font-family: 'poppins';
-        font-size: 50px;
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        color: rgb(235, 21, 21);
-        font-weight: bold;
-
-        span {
-          color: black;
-          font-weight: bold
-        }
+      span {
+        color: black;
+        font-weight: bold
       }
-
-
     }
+
+    h1 a:hover {
+      color: black;
+      font-size: 51px;
+    }
+
+    h1 a span:hover {
+      color: rgb(235, 21, 21);
+    }
+
+
 
 
   }
@@ -142,9 +158,11 @@ li a {
   position: relative;
   bottom: 0;
   width: 100%;
-
+  display: inline-block;
   line-height: 24px;
   color: #737373;
+
+
 
 
 }
@@ -161,6 +179,11 @@ li a {
       width: 150px;
     }
 
+    .logo-landing-page:hover {
+      width: 153px;
+      cursor: pointer;
+    }
+
     .menu {
       margin: 1em;
       margin-bottom: 4em;
@@ -168,11 +191,15 @@ li a {
       padding-bottom: 2em;
       border-radius: 2em;
 
-      a {
-        h1 {
-          font-size: 25px;
-        }
 
+      h1 a {
+        font-size: 25px;
+        margin-bottom: -10px;
+
+      }
+
+      h1 a:hover {
+        font-size: 26px;
       }
 
 
@@ -180,7 +207,10 @@ li a {
 
 
     .landing-footer {
-      padding-bottom: 0
+      padding-bottom: 0;
+
+
+
     }
 
   }
