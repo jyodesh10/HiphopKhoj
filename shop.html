@@ -19,6 +19,34 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
+<style>
+    input, select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    button {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: rgba(17, 17, 17, 0.7);
+    }
+    
+    
+    </style>
 
 <body>
     <div class="loader_bg">
@@ -159,7 +187,7 @@
                             <img class="center" src="image/Shop images/3.jpg"  alt="" >
                             <h3 class="name">name</h3>
                             <h3 class="price">Price= 500</h3>
-                            <a href="#popup1" class="button">
+                            <a href="#popup1"  class="button">
                                 Order now!!
                             </a>
                         </div>
@@ -176,10 +204,29 @@
 
         <div id="popup1" class="overlay">
             <div class="popup">
-                <h2>Contact info:</h2>
+                <h2>Info:</h2>
                 <a class="close" href="#">&times;</a>
                 <div class="content">
-                     8979878789
+                    <form action="https://formsubmit.co/jyodesh10@gmail.com" method="POST">
+                        <ul style="list-style: none;">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="Customer has purchased an item">
+                            <li><label for="fname">Full name</label></li>  
+                            <li>  <input id="fname" type="text" name="name" placeholder="Full name" required> </li>
+                            <li><label for="contact">Contact no.</label></li>  
+
+                            <li> <input id="contact" type="int" name="contact number" placeholder="Your phone number" required></li>
+                            <li><label for="email">Email</label></li>  
+                            <li> <input id="email" type="email" name="email" placeholder="your email" required></li>
+                            <li><label for="size">Size</label></li>  
+                            <li> <input id="size" type="text" name="size" placeholder="Xl/L/M/S" required></li>
+                            <button type="submit" >Place Order</button>
+                            
+                            <input type="hidden" name="_autoresponse" value="Thank you for purchasing">
+                        </ul>
+                        
+                        
+                   </form> 
                 </div>
             </div>
         </div>
@@ -198,19 +245,18 @@
                 <div class="col-sm-12 col-md-6">
                     <img class="logo" src="image/logo.png" alt="">
                     <h6>About</h6>
-                    <p class="text-justify">Hip-hop, cultural movement that attained widespread popularity in the 1980s
-                        and ’90s; also, the backing music for rap, the musical style incorporating rhythmic and/or
-                        rhyming speech that became the movement’s most lasting and influential art form.</p>
+                    <p class="text-justify">THIS PAGE AND HIP-HOP ART I DO IS DEDICATED TO PEOPLE WHO LOVE -HIP-HOP- IN ANY SHAPE AND COLOURS. -Find Out How I live my everyday HipHop  </p>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
                     <ul class="contact_information">
+
                         <li><span><img src="image/location_icon.png" alt="#" /></span><span
-                                class="text_cont">Location<br>United Kingdom</span></li>
+                                class="text_cont">Location<br>Lalitpur</span></li>
                         <li><span><img src="image/phone_icon.png" alt="#" /></span><span class="text_cont">mobile
-                                no<br>9837 654 3210</span></li>
+                                no<br>9818029984</span></li>
                         <li><span><img src="image/mail_icon.png" alt="#" /></span><span
-                                class="text_cont">asdsad@gmail.com<br>asdsad@gmail.com</span></li>
+                                class="text_cont">Email<br>karmastreet01@gmail.com</span></li>
                         </u>
                 </div>
 
@@ -224,6 +270,7 @@
                     </ul>
                 </div>
             </div>
+       
             <hr>
         </div>
         <div class="container">
@@ -257,6 +304,8 @@
                 $('.loader_bg').fadeToggle();
             }, 1500);
         })
+
+   
     </script>
 
    
